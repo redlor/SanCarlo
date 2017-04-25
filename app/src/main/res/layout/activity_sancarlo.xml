@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_sancarlo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
     tools:context="com.example.android.sancarlo.Sancarlo">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,117 +17,111 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="7"
+            android:layout_weight="1.3"
             android:layout_gravity="center"
             android:orientation="vertical">
 
-           <ImageView
-               style="@style/logo"
-               android:layout_weight="1"
-            android:src="@drawable/logo_san_carlo"/>
+            <ImageView
+                style="@style/logo"
+                android:layout_weight="1"
+                android:src="@drawable/logo_san_carlo" />
 
             <ImageView
                 style="@style/logo"
                 android:layout_weight="2"
-                android:background="@drawable/sancarlo"/>
+                android:background="@drawable/sancarlo" />
 
         </LinearLayout>
 
         <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="4"
-                android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <TextView
-                style = "@style/title_text_views"
+                style="@style/title_text_views"
                 android:text="@string/contacts" />
 
-            <LinearLayout
-                style="@style/contacts_linear_layouts">
+            <LinearLayout style="@style/contacts_linear_layouts">
 
                 <ImageView
                     style="@style/icons"
                     android:src="@drawable/phone" />
 
                 <TextView
-                style="@style/contacts_text_views"
-                android:autoLink="phone"
-                android:text="@string/phone_number" />
+                    android:id="@+id/textView"
+                    style="@style/contacts_text_views"
+                    android:autoLink="phone"
+                    android:text="@string/phone_number" />
 
             </LinearLayout>
 
+            <LinearLayout style="@style/contacts_linear_layouts">
 
-        <LinearLayout
-            style="@style/contacts_linear_layouts">
+                <ImageView
+                    style="@style/icons"
+                    android:src="@drawable/email" />
 
-            <ImageView
-                style="@style/icons"
-                android:src="@drawable/email" />
+                <TextView
+                    style="@style/contacts_text_views"
+                    android:autoLink="email"
+                    android:text="@string/email" />
 
-            <TextView
-                style="@style/contacts_text_views"
-                android:autoLink="email"
-                android:text="@string/email" />
+            </LinearLayout>
 
-        </LinearLayout>
+            <LinearLayout style="@style/contacts_linear_layouts">
 
-        <LinearLayout
-            style="@style/contacts_linear_layouts">
+                <ImageView
+                    style="@style/icons"
+                    android:src="@drawable/map" />
 
-            <ImageView
-                style="@style/icons"
-                android:src="@drawable/map" />
+                <TextView
+                    style="@style/contacts_text_views"
+                    android:autoLink="map"
+                    android:text="@string/map" />
 
-            <TextView
-                style="@style/contacts_text_views"
-                android:autoLink="map"
-                android:text="@string/map" />
-
-        </LinearLayout>
+            </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
             android:orientation="horizontal">
 
-                 <TextView
-                     style="@style/title_text_views"
-                     android:layout_marginTop="@dimen/logo_margin_top"
-                    android:text="@string/follow_us" />
+            <TextView
+                style="@style/title_text_views"
+                android:layout_marginTop="@dimen/logo_margin_top"
+                android:text="@string/follow_us" />
 
-                <TextView
-                    style="@style/social_text_views"
-                    android:background="@drawable/facebook"
-                    android:text="@string/facebook"/>
+            <TextView
+                style="@style/social_text_views"
+                android:background="@drawable/facebook"
+                android:text="@string/facebook" />
 
-                 <TextView
-                     style="@style/social_text_views"
-                     android:scaleX="0.9"
-                     android:scaleY="0.9"
-                    android:text="@string/tripadvisor"
-                    android:background="@drawable/tripadvisor" />
+            <TextView
+                style="@style/social_text_views"
+                android:background="@drawable/tripadvisor"
+                android:scaleX="0.9"
+                android:scaleY="0.9"
+                android:text="@string/tripadvisor" />
 
         </LinearLayout>
-
 
         <TextView
             style="@style/title_text_views"
-            android:textAlignment="center"
             android:layout_gravity="center"
-            android:text="@string/opening_hours" />
+            android:text="@string/opening_hours"
+            android:textAlignment="center" />
 
         <Button
-            style= "@style/button"
+            style="@style/button"
             android:background="@drawable/buttonshape"
             android:text="@string/button_text" />
 
-
-        </LinearLayout>
-
+    </LinearLayout>
 
 </LinearLayout>
 
