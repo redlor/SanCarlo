@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="contacts_textviews_padding_top">4dp</dimen>
+    <dimen name="contacts_textviews_margin_left">16dp</dimen>
+    <dimen name="contacts_layouts_margins">4dp</dimen>
+    <dimen name="follow_margins_bottom">4dp</dimen>
+    <dimen name="logo_margin_top">16dp</dimen>
+    <dimen name="icons_margin_right">8dp</dimen>
+    <dimen name="icons_margin_left">16dp</dimen>
+    <dimen name="titles_text_size">24sp</dimen>
+    <dimen name="textviews_text_size">16sp</dimen>
+    <dimen name="hours_text_size">20sp</dimen>
+    <dimen name="button_text_size">24sp</dimen>
+</resources>

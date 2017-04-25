@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#EF5350</item>
+        <item name="colorPrimaryDark">#F44336</item>
+        <item name="colorAccent">#1E88E5</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/logo_margin_top</item>
+        <item name="android:tint">#F44336</item>
+    </style>
+
+    <style name="icons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="title_text_views">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#F44336</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">@dimen/textviews_text_size</item>
+    </style>
+
+    <style name="contacts_linear_layouts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">@dimen/contacts_layouts_margins</item>
+        <item name="android:layout_marginTop">@dimen/contacts_layouts_margins</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+    <style name="contacts_text_views">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:textSize">@dimen/textviews_text_size</item>
+        <item name="android:textColor">#1976D2</item>
+        <item name="android:layout_marginLeft">@dimen/contacts_textviews_padding_top</item>
+        <item name="android:paddingTop">@dimen/contacts_textviews_padding_top</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="social_text_views">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:textSize">0sp</item>
+        <item name="android:layout_marginLeft">@dimen/icons_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/icons_margin_left</item>
+        <item name="android:scaleX">1.2</item>
+        <item name="android:autoLink">web</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:shadowColor">#A8A8A8</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+
+    </style>
+</resources>
+
+
+
+
+
